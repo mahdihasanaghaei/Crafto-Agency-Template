@@ -1,0 +1,44 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap");
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 100%;
+  font-family: "Inter", sans-serif;
+  background-image: url(../img/vertical-line-bg-small-medium-gray.svg);
+  background-position: center top !important;
+}
+
+main {
+  width: 100%;
+  overflow-x: hidden;
+}
+main li {
+  list-style-type: none;
+}
+main a {
+  color: inherit;
+  text-decoration: none;
+  text-transform: capitalize;
+}
+main section,
+main figure,
+main article,
+main aside,
+main footer,
+main header,
+main nav {
+  display: flex;
+  flex-wrap: wrap;
+}
+main .row {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  height: 100%;
+}/*# sourceMappingURL=global.css.map */
